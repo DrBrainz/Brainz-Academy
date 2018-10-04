@@ -1,0 +1,757 @@
+
+/** 
+
+<!-- 
+*Author: Edwin Asare (Dr.Brainz)
+*Author URL: http://www.braintech.cf
+*Author Email: brainztech08@gmail.com
+*Author Email: info@brainztech.cf.com
+*Copyright(c) 2018 Brainz Tech Inc.
+*This is a Premium School blog theme for your shcool,you may edit it per your needs.
+*Contact the author or visit our website for more premium themes for your project.
+
+/=== Content ===\
+1.Main Header
+2.Faculty 
+3.About
+4.Population
+5.Events
+6.Newsletter
+7.School Blog
+8.Parent Blog
+9.Facilities
+10.Conatc
+11.Footer
+
+**Note: Show some love for our hardwork by remaining the footer credit which link back to our website.
+  Or you can use your own means to link back to website.
+  *But note that footer credit must remain the same according to the license agreement.*
+  Thanks.
+
+  NB: Please in this theme, we use our own pictures, texts, fonts & styles. You can add your own 
+      according to your needs.
+      Thanks.
+**
+-->
+
+**/
+
+
+/** General CSS **/
+
+@font-face {
+	font-family: Brainz;
+	src: url('../fonts/brainz.tff');
+}
+
+body {
+ font-family: Brainz,sans-serif!important;
+ font-size: 100%;
+ overflow-x: hidden;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size: 2rem;
+	font-weight: 600;
+	font-family: 'Abril Fatface', cursive;
+}
+figcaption {
+	font-family: 'Lobster', cursive;
+}
+/** End of General CSS **/
+
+/** Main Header **/
+.home {
+	background-color: #dc3545;
+}
+.navbar {
+	padding-bottom: 5rem;
+}
+.navbar-brand {
+	font-size: 2.2rem;
+	color: #fff!important;
+	padding-right: 1rem;
+	padding-top: 1rem;
+	line-height: initial;
+	text-transform: capitalize;
+}
+.nav-item {
+	margin-right: 5px;
+}
+.nav-link {
+    font-size: 14px;
+    padding: 8px 20px;
+    position: relative;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff!important;
+    letter-spacing: 1px;
+}
+}
+.nav-link:hover {
+
+}
+.btn-success {
+	margin-left: 1rem;
+}
+.sub-home {
+	padding-top: 5rem;
+	padding-bottom: 3rem;
+}
+.sub-content {
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+	color: #fff;
+	font-size: 2.8rem;
+	margin-top: 4rem;
+	padding-bottom: 5rem
+}
+.sub-content input {
+	font-size: 1.8rem;
+	outline: none;
+	border: none;
+}
+
+.sub-content a {
+	color: #fff;
+}
+.navbar-toggler {
+	border-color: #008000!important;
+	background-color: #008000;
+}
+.sub-home img {
+	width: 230px;
+	height: 230px;
+	border-radius: 50%;
+	margin-top: 5rem;
+}
+@media all and (max-width: 900px){
+	.sub-home img {margin-top: 5rem;}
+}
+@media all and (max-width: 770px){
+	.sub-home img {margin-top: 0rem;
+		margin-right: 5rem;
+	}
+}
+.sub-home img:hover {
+	transform: rotate(50deg);
+	transition: 1s all;
+}
+/* Form Section */
+.form-sec {
+    width: 90%;
+    height: 10rem;
+    padding: 2em 3em;
+    position: relative;
+    bottom: -3.3em;
+    left: 5em;
+    background: rgba(0, 0, 0, 0.24);
+    margin-bottom: 2rem;
+    padding-top: 1.5rem;
+}
+.form-sec h6 {
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 1px;
+    margin-bottom: 0.8em;
+    text-align: center;
+}
+.field {
+    width: 19.5%;
+    float: left;
+}
+.field:nth-child(1),.field:nth-child(2),.field:nth-child(3),.field:nth-child(4) {
+	margin-right:8px;
+	margin-bottom: 1rem;
+}
+.form-sec input[type="text"], .form-sec input[type="email"] {
+    outline: none;
+    font-size: 14px;
+    color: #000;
+    padding: 12.5px 10px;
+    letter-spacing: 1px;
+    margin: 0;
+    width: 100%;
+    border: none;
+    -webkit-appearance: none;
+    background: #ffffff;
+}
+.form-sec input[type="submit"] {
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #fff;
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 11px 10px;
+    -webkit-appearance: none;
+    text-transform: capitalize;
+    transition: .5s all;
+    background: #008000;
+    display: inline-block;
+    transition: 0.4s all;
+    -webkit-transition: 0.4s all;
+    -moz-transition: 0.4s all;
+    -o-transition: 0.4s all;
+    -ms-transition: 0.4s all;
+}
+
+/** End of Main Header **/
+
+/** Faculty **/
+.faculty {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+.faculty h3 {
+	text-align: center;
+	padding-bottom: 2rem;
+}
+.faculty-staff img {
+	width:100%;
+	transition:all .5s none;
+	transition-delay:0.3s;
+	padding-bottom: 1rem;
+	padding-top: 1rem;
+}
+.faculty-staff img:hover {
+	filter: grayscale(1);
+}
+.faculty-staff h4 {
+	font-size: 1.2rem;
+	padding-bottom: 0.5rem;
+	background: rgba(0, 0, 0, 0.84);
+	color: #ffb900;
+	text-align: center;
+	padding-top: 0.5rem;
+}
+.faculty-staff h4:hover {
+	background: #1aafd0;
+	color: #fff;
+}
+
+.faculty-staff p {
+	font-size: 1rem;
+	font-weight: 600;
+	padding-top: 0.3rem;
+}
+.social-icon a {
+    width: 30px;
+    height: 30px;
+    color: #212121;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.2rem;
+    border: 2px solid #1aafd0;
+}
+.col-md-3 {
+	padding-right: 2rem;
+}
+/** End of Faculty **/
+
+
+/** About **/
+.about {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.about h3 {
+	text-align: center;
+	padding-bottom: 3rem;
+}
+.about-content {
+	padding-top: 
+}
+.about-sub-content {
+	background-color: rgb(0,0,0,0.62);
+}
+.about-sub-content h2 {
+	color: #ffb900;
+	font-size: 1.5rem;
+	letter-spacing: 0.2rem;
+	padding-top: 2rem;
+	padding-bottom: 0.5rem;
+	text-align: center;
+}
+.about-sub-content p {
+	color: #fff;
+	text-align: center;
+	margin: 0;
+	padding-bottom: 1rem;
+	font-weight: 600;
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    border-radius: 0rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;*/
+}
+.btn:hover, .btn:focus {
+	border-color: transparent;
+	background-color: #008000c2!important;
+}
+.btn-primary {
+	background-color: #1aafd0!important;
+	margin-bottom: 1rem;
+}
+/** End of About **/
+
+/** Population **/
+.population {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+.background1, .background2, .background3, .background4 {
+	background-color: rgba(0, 0, 0, 0.10);
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+.icon {
+	padding-bottom: 1rem;
+	padding-top: 1rem;
+	color: initial;
+	font-size: 2.5rem;
+}
+.total {
+	font-size: 1.5rem;
+	padding-bottom: 2rem;
+	padding-top: 1rem;
+	color: #ffb900;
+	font-weight: 600;
+
+}
+.background1, .background2, .background3, .background4 h5 {
+	padding-bottom: 1rem;
+}
+/** End of Population **/
+
+/** Events **/
+.events {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+.events-sub-left, .events-sub-right {
+	padding: 0;
+}
+.events-head {
+	background: url(../images/caleb-woods.jpg)no-repeat;
+	background-size: cover;
+	min-height: 34rem;
+}
+.events-head h3 {
+    font-size: 50px;
+    color: #ffb900;
+    padding: 20px 55px;
+    background: rgba(0, 0, 0, 0.72);
+    display: inline-block;
+    margin: 8em 0 0 1em;
+}
+.event-img1 {
+	background: url(../images/nicolas-thomas.jpg)no-repeat;
+}
+.event-img2 {
+	background: url(../images/wes-hicks.jpg)no-repeat;
+}
+.event-img3 {
+	background: url(../images/lonely-planet.jpg)no-repeat;
+}
+.event-img4 {
+	background: url(../images/rawpixel-5.jpg)no-repeat;
+}
+
+.event-img1, .event-img2, .event-img3, .event-img4 {
+	background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+     min-height: 265px;
+}
+.events-content-details, .event-top {
+	width: 50%;
+	float: left;
+	padding: 2em 2.5em;
+	position:relative;
+}
+.event-top {
+	margin-top: 7rem;
+}
+.events-content-details:after {
+    content: "";
+    position: absolute;
+    left: 383px;
+    top: 123px;
+    width: 25px;
+    height: 25px;
+    background: rgb(255, 255, 255);
+     -webkit-transform: rotate(40deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+.event-top:after {
+	left: -13px!important;
+}
+.event-img1, .event-img2, .event-img3, .event-img4 {
+	width: 50%;
+	float: left;
+}
+.events-content-details h5{
+	font-size: 1.5rem;
+    color: #000000;
+    margin-bottom: 14px;
+    line-height: 32px;
+    display: block;
+    text-decoration: none;
+}
+.read-more a {
+	font-size: 1rem;
+	font-weight: 600;
+    color: #fff;
+    line-height: 3rem;
+    display: block;
+    text-decoration: none;
+    background-color: #1aafd0;
+    width: 50%;
+    text-align: center;
+}
+.read-more a:hover {
+	background-color: /*#ffb900*/#008000c2!important;
+}
+/** End of Events **/
+
+
+/** Newsletter **/
+.newsletter {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	background-color: #343a40;
+	color: #fff;
+}
+.newsletter h3 {
+	text-align: center;
+	padding-bottom: 2rem;
+}
+.news-sub, .news-form {
+	padding-top: 2rem;
+}
+.news-form input[type="email"] {
+	line-height: 2.5rem;
+	width: 50%;
+	background: transparent;
+	border: 1px solid #ffb900;
+	outline: transparent;
+	color: #fff;
+	padding-left: 1.5rem;
+}
+ .news-form input[type="submit"] {
+ 	line-height: 2.5rem;
+ 	width: 20%;
+ 	background: transparent;
+ 	border: 1px solid #ffb900;
+ 	outline: transparent;
+ 	color: #fff;
+ }
+/** End of Newsletter **/
+
+
+ /** School Blog **/
+ .blog {
+ 	padding-top: 5rem;
+ 	padding-bottom: 5rem;
+ }
+ .blog h3 {
+ 	text-align: center;
+ 	padding-bottom: 5rem;
+ }
+.TM-box {
+  margin: auto;
+  width: 60%;
+  border: 3px solid #0062cc;
+  padding: 50px;
+  background-color: #0062cc;
+  color: #fff!important;
+}
+ @media all (max-width: 800px){
+  .TM-box {
+    padding: 10px;
+  }
+}
+ .TM-box h5 {
+ 	padding-bottom: 1rem;
+ }
+.TM-box p {
+	padding-top: 1rem;
+}
+/** End of School Blog **/
+
+
+ /** Parents Blog **/
+ .parents-blog {
+ 	padding: 2rem;
+ 	margin-top: 5rem;
+ 	margin-bottom: 5rem;
+ 	background: url(../images/parent-bg.jpg)no-repeat;
+ 	color: #fff;
+ 	text-align: center;
+ 	background-attachment: fixed;
+ 	background-size: cover;
+ 	background-position: center;
+ }
+ .flexslider {
+    margin: 0 0 60px;
+    background: transparent;
+    border: none;
+    position: relative;
+    zoom: 1;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: '' 0 1px 4px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: '' 0 1px 4px rgba(0, 0, 0, 0.2);
+    -o-box-shadow: '' 0 1px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: '' 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+.flex-direction-nav a {
+    text-decoration: none;
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: -20px 0 0;
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    overflow: hidden;
+    opacity: 0;
+    cursor: pointer;
+    color: transparent!important;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.flex-direction-nav a:before {
+    font-family: "flexslider-icon";
+    font-size: 40px;
+    display: inline-block;
+    content: '\f001';
+    color: transparent!important;
+    text-shadow: none;
+}
+.flex-direction-nav a:after {
+    font-family: "flexslider-icon";
+    font-size: 40px;
+    display: inline-block;
+    content: '\f001';
+    color: transparent!important;
+    text-shadow: none;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+.responsive {
+  margin: auto;
+  width: 60%;
+  border: 3px solid #;
+  padding: 50px;
+  background-color: ;
+  color: #fff!important;
+  text-align: center;
+}
+ @media all (max-width: 800px){
+  .responsive {
+    padding: 10px;
+  }
+}
+.responsive figcaption {
+    background-color: #00000045;
+}
+.responsive span {
+    color: #fff!important;
+    background-color: #00000045;
+    font-weight: 700;
+}
+.responsive img {
+    width: 50%;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px!important;
+}
+ 
+/** Enf of Parents Blog **/
+
+
+ /** Facilities **/
+.facilities-section {
+	padding-bottom: 5rem;
+}
+.facilities-section h2 {
+	text-align: center;
+	padding-bottom: 2rem;
+}
+.facilities {
+    border: 1px solid #777777;
+    border-radius: 10px;
+    background-color: #04091ebd;
+    padding: 20px 20px 20px;
+    color: #fff;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.facilities:hover {
+   -webkit-transform: scale(1.1);
+   -ms-transform: scale(1.1);
+   transform: scale(1.1);
+   -webkit-transition: all 0.5s linear;
+   -o-transition: all 0.5s linear;
+   transition: all 0.5s linear;
+   cursor: default;
+   color: #fff;
+   background: #0062cc;
+}
+.facilities:hover h4 {
+   border-bottom: 1px solid #ffff00;
+}
+.hover-para {
+	display: none;
+}
+.facilities:hover .hover-para {
+	display: block;
+}
+.facilities:hover .hover-para  span {
+	color: #ffff00;
+}
+.para img {
+	display: none;
+}
+.facilities:hover .para img {
+	margin: auto;
+	width: 80px;
+	display: block;
+	padding-bottom: 0.5rem;
+}
+
+ /** End of Facilities **/
+
+
+/** Contact **/
+
+.contact-info {
+	background: url(../images/customer-service.jpg);
+	background-position: center;
+	background-size: cover;
+	margin-bottom: 4rem;
+	padding: 2rem;
+}
+.contact-info h4 {
+	color: #fff;
+	text-align: center;
+}
+.contact-info p {
+	text-align: center;
+	color: #fff;
+	background-color: #00000091;
+	padding: 1rem;
+}
+.message .form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #fff;
+    background-color: #00000091;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.message ::placeholder {
+	color: #fff;
+}
+.message label {
+	color: #fff;
+}
+.address {
+	background-color: #00000091;
+	margin-top: 5rem!important;
+	padding: 1rem;
+	margin: auto;
+	color: #fff;
+}
+.address h6 {
+	padding-bottom: 1rem;
+}
+.address li {
+	list-style: none;
+	padding: 0.5rem;
+	margin: auto;
+}
+/** End of Contact **/
+
+/** Footer **/
+.footer {   
+	color: #999;
+	background-color: #000000;
+}
+.footer p {
+   	color: #999;
+    font-size: 13px;
+    letter-spacing: 2px;
+    margin-top: 20px!important;
+}
+.footer p  a {
+	text-decoration: none;
+	color:;
+	font-weight: 700;
+}
+.footer ul {
+    list-style: none;
+    float: right;
+    margin-top: 5px;
+}
+.footer li {
+	display: inline-block;
+    font-size: 20px;
+    padding: 5px;
+}
+.footer li a {
+	width: 30px;
+    height: 30px;
+    padding-top: 0.25rem;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    border: 2px solid #1aafd0;
+}
+/** End of Foter **/
+
+
+
+
+
+
+
+
+
